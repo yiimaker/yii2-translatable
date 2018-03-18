@@ -1,0 +1,25 @@
+# Codeception is not needed
+codecept.phar
+
+# Composer itself is not needed
+composer.phar
+
+# Composer vendor dir
+/vendor
+
+# PHPStorm project files
+.idea
+
+# Netbeans project files
+nbproject
+
+# Zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store

@@ -1,0 +1,51 @@
+{
+  "name": "yiimaker/yii2-translatable",
+  "description": "",
+  "keywords": ["yii2", "behavior", "translatable", "translation", "translations", "ar"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/yiimaker/yii2-email-translatable",
+    "issues": "https://github.com/yiimaker/yii2-email-translatable/issues"
+  },
+  "authors": [
+    {
+      "name": "Vladimir Kuprienko",
+      "email": "vldmr.kuprienko@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ymaker\\translatable\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ymaker\\translatable\\tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "scripts": {
+    "test": [
+      "codecept build",
+      "codecept run"
+    ]
+  }
+}
