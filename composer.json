@@ -1,6 +1,6 @@
 {
   "name": "yiimaker/yii2-translatable",
-  "description": "",
+  "description": "Translatable behavior aggregates logic of linking translations to the primary model",
   "keywords": ["yii2", "behavior", "translatable", "translation", "translations", "ar"],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
