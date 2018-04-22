@@ -1,0 +1,30 @@
+language: php
+
+php:
+  - 5.5
+  - 5.6
+  - 7.0
+  - 7.1
+  - 7.2
+
+# environment variable used in test suite
+env: TEST_ENVIRONMENT=travis
+
+# faster builds on new travis setup not using sudo
+sudo: false
+
+# cache vendor dirs
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
+
+# install dependencies
+install:
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer update --prefer-dist --no-interaction
+
+# run tests
+script:
+  - composer validate --no-check-lock
+  - composer test
