@@ -156,12 +156,12 @@ class TranslatableBehavior extends Behavior
         if (!$isValid) {
             foreach ($translations as $translation) {
                 foreach ($translation->getErrors() as $attribute => $errors) {
-                    $attribute = strtr($this->attributeNamePattern, [
+                    $attribute = \strtr($this->attributeNamePattern, [
                         '%name%' => $attribute,
                         '%language%' => $translation->{$this->translationLanguageAttrName},
                     ]);
 
-                    if (is_array($errors)) {
+                    if (\is_array($errors)) {
                         foreach ($errors as $error) {
                             $this->owner->addError($attribute, $error);
                         }
@@ -188,8 +188,7 @@ class TranslatableBehavior extends Behavior
      */
     public function canGetProperty($name, $checkVars = true)
     {
-        return in_array($name, $this->translationAttributeList)
-            ?: $this->owner->canGetProperty($name, $checkVars);
+        return \in_array($name, $this->translationAttributeList);
     }
     
     /**
@@ -197,8 +196,7 @@ class TranslatableBehavior extends Behavior
      */
     public function canSetProperty($name, $checkVars = true)
     {
-        return in_array($name, $this->translationAttributeList)
-            ?: $this->owner->canSetProperty($name, $checkVars);
+        return \in_array($name, $this->translationAttributeList);
     }
 
     /**
