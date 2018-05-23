@@ -114,8 +114,17 @@ class TranslatableBehaviorTest extends TestCase
 
     public function testModelHasProperty()
     {
+        // primary model property
+        $this->assertTrue($this->product->hasProperty('id'));
+
+        // translation model property
         $this->assertTrue($this->product->hasProperty('title'));
+
+        // translation model property
         $this->assertTrue($this->product->hasProperty('description'));
+
+        // not exists property
+        $this->assertFalse($this->product->hasProperty('undefined'));
     }
 
     public function testHasTranslation()
