@@ -1,6 +1,10 @@
 Translatable Behavior Change Log
 --------------------------------
 
+1.1.0 Under development
+-----------------------
+* Enh #10: Drop support of PHP `<5.6` (greeflas)
+
 1.0.2 August 11, 2019
 ---------------------
 * Chg: Change `codeception/codeception` version from `~2.0` to `~3.0` (greeflas)
