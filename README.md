@@ -7,9 +7,8 @@
 
 [![Build Status](https://travis-ci.org/yiimaker/yii2-translatable.svg?branch=master)](https://travis-ci.org/yiimaker/yii2-translatable)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiimaker/yii2-translatable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiimaker/yii2-translatable/?branch=master)
-[![Total Downloads](https://poser.pugx.org/yiimaker/yii2-translatable/downloads)](https://packagist.org/packages/yiimaker/yii2-translatable)
-[![Latest Stable Version](https://poser.pugx.org/yiimaker/yii2-translatable/v/stable)](https://packagist.org/packages/yiimaker/yii2-translatable)
-[![Latest Unstable Version](https://poser.pugx.org/yiimaker/yii2-translatable/v/unstable)](https://packagist.org/packages/yiimaker/yii2-translatable)
+[![Total Downloads](https://img.shields.io/packagist/dt/yiimaker/yii2-translatable.svg)](https://packagist.org/packages/yiimaker/yii2-translatable)
+[![Latest Stable Version](https://img.shields.io/packagist/v/yiimaker/yii2-translatable.svg)](https://packagist.org/packages/yiimaker/yii2-translatable)
 
 Translatable behavior aggregates logic of linking translations to the primary model.
 
@@ -127,7 +126,7 @@ For information about contributing please read [CONTRIBUTING.md](CONTRIBUTING.md
 License
 -------
 
-[![License](https://poser.pugx.org/yiimaker/yii2-translatable/license)](https://packagist.org/packages/yiimaker/yii2-translatable)
+[![License](https://img.shields.io/github/license/yiimaker/yii2-translatable.svg)](LICENSE)
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 
