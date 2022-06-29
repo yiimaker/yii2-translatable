@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct.svg)](https://stand-with-ukraine.pp.ua)
+
 <p align="center">
     <a href="https://github.com/yiimaker" target="_blank">
         <img src="https://avatars1.githubusercontent.com/u/24204902" height="100px">
@@ -9,6 +11,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiimaker/yii2-translatable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiimaker/yii2-translatable/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiimaker/yii2-translatable.svg)](https://packagist.org/packages/yiimaker/yii2-translatable)
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiimaker/yii2-translatable.svg)](https://packagist.org/packages/yiimaker/yii2-translatable)
+[![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 Translatable behavior aggregates logic of linking translations to the primary model.
 
@@ -135,4 +138,4 @@ License
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 
-Copyright (c) 2017-2018, Yii Maker
+Copyright (c) 2017-2022, Yii Maker
